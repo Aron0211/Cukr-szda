@@ -89,7 +89,7 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0px;
-    list-style: none;
+    
     margin-top: 20px;
 }
 
@@ -155,10 +155,49 @@ nav ul li a:hover {
 }
 
 #recept {
-
-    background-color: lightpink;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(242, 189, 230); 
     text-align: justify;
+    background-size: cover; 
+    border-radius: 15px; 
+    box-sizing: border-box; 
+    transition: background-position 1s ease-in-out; 
 }
+
+
+#recept:hover {
+    background-position: top left; 
+}
+
+.recept-content {
+    padding-left: 40px;  
+    padding-right: 40px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.recept-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px; 
+}
+
+.recept-content p {
+    font-size: 1.2rem;
+    line-height: 1.8; 
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+.recept-content p:last-child {
+    margin-bottom: 0; 
+}
+
+
 
 footer {
     text-align: center;
